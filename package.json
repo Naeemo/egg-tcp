@@ -1,6 +1,6 @@
 {
   "name": "egg-tcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple TCP server plugin for eggjs.",
   "eggPlugin": {
     "name": "tcp"
