@@ -1,47 +1,3 @@
-# egg-tcp
-
-[![NPM version][npm-image]][npm-url]
-
-[npm-url]: https://npmjs.org/package/egg-tcp
-
-<!--
-Description here.
--->
-
-## Install
-
-```bash
-$ npm i egg-tcp --save
-```
-or
-```bash
-$ yarn add egg-tcp
-```
-
-## Usage
-
-```js
-// {app_root}/config/plugin.js
-exports.tcp = {
-    enable: true,
-    package: 'egg-tcp',
-};
-```
-
-## Configuration
-
-```js
-// {app_root}/config/config.default.js
-exports.tcp = {
-    port: 5001,
-    host: '127.0.0.1'
-};
-```
-
-## Example
-
-```js
-// {app_root}/app/tcp/controller/index.js
 module.exports = app => {
     return {
         async feed(socket) {
@@ -70,23 +26,3 @@ module.exports = app => {
         }
     };
 };
-
-```
-
-```js
-// {app_root}/app/router.ts
-app.tcp.handle('index.feed')
-```
-
-## Questions & Suggestions
-
-Please open an issue [here](https://github.com/eggjs/egg/issues).
-
-
-## Thanks 
-
-> [egg-udp](https://github.com/ruur/egg-udp)
-
-## License
-
-[MIT](LICENSE)
