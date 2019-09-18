@@ -1,6 +1,6 @@
 {
   "name": "egg-tcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple TCP server plugin for eggjs.",
   "eggPlugin": {
     "name": "tcp"
@@ -44,12 +44,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-tcp.git"
+    "url": "git+https://github.com/Naeemo/egg-tcp.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/Naeemo/egg-tcp/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-tcp#readme",
+  "homepage": "https://github.com/Naeemo/egg-tcp",
   "author": "Naeemo",
   "license": "MIT"
 }
