@@ -75,13 +75,13 @@ module.exports = app => {
 ```
 
 ```js
-// {app_root}/app/router.ts
+// {app_root}/app/router.js
 app.tcp.handle('index.feed')
 ```
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/Naeemo/egg-tcp/issues).
 
 
 ## Thanks 
